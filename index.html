@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marvel</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Marvel_Logo.svg"
+        alt="logo"
+        width="100"
+        height="65"
+      />
+      <nav>
+        <a href="#" class="a1"> About</a>
+        <a href="#" class="a2">Home</a>
+        <a href="#" class="a3">Contact</a>
+      </nav>
+      <div>
+        <button class="signUpBtn">Sign up</button>
+        <button class="logInBtn">Login</button>
+      </div>
+    </header>
+
+    <div class="cardsStoryDiv">
+      <section class="cards">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://m.media-amazon.com/images/I/61KFLylOgPL.jpg"
+            class="card-img-top"
+            alt="marvel comics poster"
+            height="350"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Marvel comics</h5>
+            <p class="card-text">
+              Marvel Comics is an American comic book publisher and the property
+              of The Walt Disney Company since December 31, 2009, and a
+              subsidiary of Disney Publishing Worldwide since March 2023. Marvel
+              was founded in 1939 by Martin Goodman as Timely Comics, and by
+              1951 had generally become known as Atlas Comics.
+            </p>
+            <a href="https://www.marvel.com/comics" target="_blank"
+              >Marvel comics</a
+            >
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://i.ebayimg.com/images/g/CUwAAOSwxMhi2zfg/s-l1200.webp"
+            class="card-img-top"
+            alt="..."
+            height="375"
+          />
+          <div class="card-body">
+            <h5 class="card-title">MCU</h5>
+            <p>
+              The Marvel Cinematic Universe is an American media franchise and
+              shared universe centered on a series of superhero films produced
+              by Marvel Studios. The films are based on characters that appear
+              in American comic books published by Marvel Comics
+            </p>
+            <p class="card-text"></p>
+            <a
+              href="https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe"
+              target="_blank"
+              >More info</a
+            >
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/8/88/Martin_Goodman.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Marvel founder</h5>
+            <p class="card-text">
+              Marvel was founded in 1939 by Martin Goodman as Timely Comics, and
+              by 1951 had generally become known as Atlas Comics. The Marvel era
+              began in August 1961 with the launch of The Fantastic Four and
+              other superhero titles created by Stan Lee, Jack Kirby, Steve
+              Ditko, and many others.
+            </p>
+            <a
+              href="https://en.wikipedia.org/wiki/Martin_Goodman_(publisher)"
+              target="_blank"
+              >info about Marvel founder</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <button class="seeMore">See more</button>
+
+      <section class="blog">
+        <div class="imgDiv">
+          <img
+            class="blogimg"
+            src="https://cdn.marvel.com/content/1x/02_lunarx_slipcasefront_1_14.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="storyDiv">
+          <h1>Story</h1>
+
+          <p>
+            Timely's first publication, Marvel Comics #1 (cover dated Oct.
+            1939), included the first appearance of Carl Burgos' android
+            superhero the Human Torch, and the first appearances of Bill
+            Everett's anti-hero Namor the Sub-Mariner, among other features. The
+            issue was a great success; it and a second printing the following
+            month sold a combined nearly 900,000 copies. While its contents came
+            from an outside packager, Funnies, Inc., Timely had its own staff in
+            place by the following year. The company's first true editor,
+            writer-artist Joe Simon, teamed with artist Jack Kirby to create one
+            of the first patriotically themed superheroes, Captain America, in
+            Captain America Comics #1 (March 1941). It, too, proved a hit, with
+            sales of nearly one million. Goodman formed Timely Comics, Inc.,
+            beginning with comics cover-dated April 1941 or Spring 1941.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <div class="regDiv">
+      <form>
+        <input type="text" placeholder="user name" id="username" /><br />
+        <input type="email" placeholder="email" id="email" /><br />
+        <input
+          type="new-password"
+          placeholder="password"
+          id="password"
+        /><br /><br />
+        <input type="submit" value="submit" />
+      </form>
+    </div>
+
+    <div class="logDiv">
+      <form>
+        <input type="text" placeholder="user name" id="new-username" /><br />
+        <input
+          type="current-password"
+          placeholder="password"
+          id="new-password"
+        /><br /><br />
+        <input type="submit" value="submit" />
+      </form>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
